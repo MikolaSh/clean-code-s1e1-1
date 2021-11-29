@@ -30,7 +30,7 @@ body {
   text-align: right;
 }
 
-.info img {
+.matrix-img {
   width: 100%;
 }
 
@@ -149,13 +149,13 @@ input#new-task {
   width: 226px;
 }
 
-button.delete-button img {
+button.delete-button img.remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete-button img:hover {
+button.delete-button img.remove-img:hover {
   transform: rotateZ(0);
 }
 
@@ -167,10 +167,7 @@ button.delete-button img:hover {
 
 /* Edit Task */
 
-
-
 .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
-
