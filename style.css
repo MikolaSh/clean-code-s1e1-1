@@ -134,7 +134,7 @@ h3,
   vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.list-item > .checkbox {
   margin: 0 10px;
 }
 
