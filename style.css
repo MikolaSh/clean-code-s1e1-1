@@ -93,7 +93,7 @@ label[for="new-task"] {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.change-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -106,7 +106,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.change-task:focus {
   color: #333;
 }
 
@@ -145,7 +145,7 @@ input#new-task {
   width: 226px;
 }
 
-.edit-mode > input[type="text"] {
+.edit-mode > .change-task {
   width: 226px;
 }
 
@@ -155,7 +155,7 @@ button.delete-button img.remove-img {
   transition: transform 200ms ease-in;
 }
 
-button.delete-button img.remove-img:hover {
+.button.delete-button img.remove-img:hover {
   transform: rotateZ(0);
 }
 
@@ -167,7 +167,7 @@ button.delete-button img.remove-img:hover {
 
 /* Edit Task */
 
-.edit-mode input[type=text] {
+.edit-mode .change-task {
   display: inline-block;
   width: 224px;
 }
