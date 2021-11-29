@@ -13,15 +13,13 @@ ul li input[type=text] {
     display: none;
 }
 
-ul li label {
-    display: none;
-}
-/* Basic Style */
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+/* Basic Style */
+
 
 .info {
   width: 500px;
@@ -93,6 +91,7 @@ h3,
   text-transform: uppercase;
 }
 
+#new-task,
 .change-task {
   margin: 0;
   font-size: 18px;
@@ -166,6 +165,10 @@ h3,
 }
 
 /* Edit Task */
+
+.edit-mode > .task {
+  display: none;
+}
 
 .edit-mode .change-task {
   display: inline-block;
